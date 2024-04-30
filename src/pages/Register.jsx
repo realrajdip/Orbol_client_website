@@ -14,7 +14,7 @@ const Register = () => {
 
           alt=""
         />
-        <h1 className="mt-3 text-xl font-semibold text-gray-800  sm:text-md dark:text-white">
+        <h1 className="mt-3 text-xl font-semibold text-gray-800  sm:text-md ">
           Sign Up
         </h1>
         </div>
@@ -22,7 +22,7 @@ const Register = () => {
             <span className="absolute">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                className="w-6 h-6 mx-3 text-gray-300 "
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -37,17 +37,17 @@ const Register = () => {
             </span>
             <input
               type="text"
-              className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 focus:border-blue-400 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
               placeholder="Username"
             />
           </div>
           <label
             htmlFor="dropzone-file"
-            className="flex items-center px-3 py-3 mx-auto mt-6 text-center bg-white border-2 border-dashed rounded-lg cursor-pointer dark:border-gray-600 dark:bg-gray-900"
+            className="flex items-center px-3 py-3 mx-auto mt-6 text-center bg-white border-2 border-dashed rounded-lg cursor-pointer "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-6 h-6 text-gray-300 dark:text-gray-500"
+              className="w-6 h-6 text-gray-300 "
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -66,7 +66,7 @@ const Register = () => {
             <span className="absolute">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                className="w-6 h-6 mx-3 text-gray-300 "
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -81,7 +81,7 @@ const Register = () => {
             </span>
             <input
               type="email"
-              className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11  focus:border-blue-400  focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
               placeholder="Email address"
             />
           </div>
@@ -89,7 +89,7 @@ const Register = () => {
             <span className="absolute">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                className="w-6 h-6 mx-3 text-gray-300 "
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -104,7 +104,7 @@ const Register = () => {
             </span>
             <input
               type="password"
-              className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg focus:border-blue-400 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
               placeholder="Password"
             />
           </div>
@@ -112,7 +112,7 @@ const Register = () => {
             <span className="absolute">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                className="w-6 h-6 mx-3 text-gray-300 "
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -127,7 +127,7 @@ const Register = () => {
             </span>
             <input
               type="password"
-              className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg focus:border-blue-400 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
               placeholder="Confirm Password"
             />
           </div>
@@ -139,7 +139,7 @@ const Register = () => {
             <div className="mt-6 text-center ">
               <Link
                 to={"/login"}
-                className="text-sm text-blue-500 hover:underline dark:text-blue-400"
+                className="text-sm text-blue-500 hover:underline "
               >
                 Already have an account? Log In
               </Link>
